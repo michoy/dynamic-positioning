@@ -1,0 +1,3 @@
+C:/Users/micha/Documents/GitHub/dynamic-positioning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/micha/Documents/GitHub/dynamic-positioning/cmake-build-debug/CMakeFiles/datametoder.dir
+C:/Users/micha/Documents/GitHub/dynamic-positioning/cmake-build-debug/CMakeFiles/edit_cache.dir
