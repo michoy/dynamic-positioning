@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>16</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.ActivityDiagramText</type>
+    <coordinates>
+      <x>512</x>
+      <y>64</y>
+      <w>947</w>
+      <h>1535</h>
+    </coordinates>
+    <panel_attributes>title:dynamic positioning - main
+Start
+Connect to phidgets
+If
+	[succsessfull connection]
+	Find max and min potentiometer voltage
+	Open file log.dat
+	Initiate variables
+	While[time left]
+		Update position
+		Calculate new PID responses
+		Set motor thrust
+		Log values
+		Sleep
+	[Time up]
+	Close channels and files
+	Start animation
+	
+	[Connection failure]
+End
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -6,6 +6,36 @@
 
 #IncludeRegexTransform: 
 
+C:/MinGW/freeglut/include/GL/freeglut.h
+freeglut_std.h
+C:/MinGW/freeglut/include/GL/freeglut_std.h
+freeglut_ext.h
+C:/MinGW/freeglut/include/GL/freeglut_ext.h
+
+C:/MinGW/freeglut/include/GL/freeglut_ext.h
+stdarg.h
+-
+
+C:/MinGW/freeglut/include/GL/freeglut_std.h
+windows.h
+-
+EGL/egl.h
+-
+GLES/gl.h
+-
+GLES2/gl2.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+stdlib.h
+-
+
 C:/Program Files/Phidgets/Phidget22/phidget22.h
 stdint.h
 -
@@ -53,6 +83,12 @@ phidget22.h
 -
 
 C:/Users/micha/Documents/GitHub/dynamic-positioning/src/animate.c
+stdio.h
+-
+string.h
+-
+GL/freeglut.h
+-
 animate.h
 C:/Users/micha/Documents/GitHub/dynamic-positioning/src/animate.h
 
@@ -83,4 +119,6 @@ RCServo.h
 C:/Users/micha/Documents/GitHub/dynamic-positioning/src/RCServo.h
 PhidgetHelperFunctions.h
 C:/Users/micha/Documents/GitHub/dynamic-positioning/src/PhidgetHelperFunctions.h
+animate.h
+C:/Users/micha/Documents/GitHub/dynamic-positioning/src/animate.h
 

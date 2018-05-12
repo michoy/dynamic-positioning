@@ -1,1 +1,1 @@
- -LC:/PROGRA~1/Phidgets/PHIDGE~1/x86 -lphidget22 -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ -LC:/PROGRA~1/Phidgets/PHIDGE~1/x86  -LC:/MinGW/freeglut/lib -lphidget22 -lm -lfreeglut -lopengl32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

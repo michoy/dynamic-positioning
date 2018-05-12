@@ -13,6 +13,9 @@ CMakeFiles/datametoder.dir/src/VoltageInput.c.obj: C:/Program\ Files/Phidgets/Ph
 CMakeFiles/datametoder.dir/src/VoltageInput.c.obj: ../src/PhidgetHelperFunctions.h
 CMakeFiles/datametoder.dir/src/VoltageInput.c.obj: ../src/VoltageInput.c
 
+CMakeFiles/datametoder.dir/src/animate.c.obj: C:/MinGW/freeglut/include/GL/freeglut.h
+CMakeFiles/datametoder.dir/src/animate.c.obj: C:/MinGW/freeglut/include/GL/freeglut_ext.h
+CMakeFiles/datametoder.dir/src/animate.c.obj: C:/MinGW/freeglut/include/GL/freeglut_std.h
 CMakeFiles/datametoder.dir/src/animate.c.obj: ../src/animate.c
 CMakeFiles/datametoder.dir/src/animate.c.obj: ../src/animate.h
 
@@ -20,5 +23,6 @@ CMakeFiles/datametoder.dir/src/main.c.obj: C:/Program\ Files/Phidgets/Phidget22/
 CMakeFiles/datametoder.dir/src/main.c.obj: ../src/PhidgetHelperFunctions.h
 CMakeFiles/datametoder.dir/src/main.c.obj: ../src/RCServo.h
 CMakeFiles/datametoder.dir/src/main.c.obj: ../src/VoltageInput.h
+CMakeFiles/datametoder.dir/src/main.c.obj: ../src/animate.h
 CMakeFiles/datametoder.dir/src/main.c.obj: ../src/main.c
 

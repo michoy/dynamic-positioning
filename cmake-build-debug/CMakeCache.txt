@@ -187,11 +187,35 @@ CMAKE_STRIP:FILEPATH=C:/MinGW/bin/strip.exe
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a library.
+FG:FILEPATH=C:/MinGW/bin/freeglut.dll
+
+//Path to a file.
+GLUT_INCLUDE_DIR:PATH=GLUT_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+GLUT_glut_LIBRARY:FILEPATH=GLUT_glut_LIBRARY-NOTFOUND
+
+//OpenGL library for win32
+OPENGL_gl_LIBRARY:STRING=opengl32
+
+//GLU library for win32
+OPENGL_glu_LIBRARY:STRING=glu32
+
 //Value Computed by CMake
 datametoder_BINARY_DIR:STATIC=C:/Users/micha/Documents/GitHub/dynamic-positioning/cmake-build-debug
 
 //Value Computed by CMake
 datametoder_SOURCE_DIR:STATIC=C:/Users/micha/Documents/GitHub/dynamic-positioning
+
+//Path to a library.
+fg:FILEPATH=fg-NOTFOUND
+
+//Path to a library.
+freeglut:FILEPATH=freeglut-NOTFOUND
+
+//Path to a library.
+glut:FILEPATH=glut-NOTFOUND
 
 //Path to a library.
 phidget22:FILEPATH=phidget22-NOTFOUND
@@ -335,4 +359,14 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_STRIP-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding OpenGL
+FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][c ][v()]
+//ADVANCED property for variable: GLUT_INCLUDE_DIR
+GLUT_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLUT_glut_LIBRARY
+GLUT_glut_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_gl_LIBRARY
+OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_glu_LIBRARY
+OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
 

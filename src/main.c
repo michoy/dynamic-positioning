@@ -15,6 +15,7 @@
 #include "VoltageInput.h"
 #include "RCServo.h"
 #include "PhidgetHelperFunctions.h"
+#include "animate.h"
 
 
 // Config variables
@@ -24,9 +25,9 @@ static double iterationTime = 0.05;     // in seconds
 static double maxTime = 10.0;           // time until control loop exits
 static double bias = 90;                // thrust level that keeps boat approximately stationary
 
-static double Kp = 1.5;
-static double Ki = 1.0;
-static double Kd = 0.0001;
+static double Kp = 2.9;
+static double Ki = 1.5;
+static double Kd = 0.004;
 
 const int motorSerialNumber = 42685;
 const int motorChannel = 0;
@@ -52,7 +53,8 @@ static void sleep_ms(int milliseconds) {
  * Sets thrust of the boats propeller
  *
  * For Continuous Rotation Servos, position is used to set speed.
- * Position by default is between 0 and 180, but this particular motor enters full-throttle reverse below ~70
+ * Position by default is between 0 and 180, but this particular motor enters full-throttle reverse below 66
+ * and is unreliable above 160
  */
 int setMotorThrust(PhidgetRCServoHandle *motorHandle, double thrust) {
 
@@ -139,8 +141,7 @@ int main (int argc, char **argv) {
 
 
     // Find voltageInput interval
-    double maxVoltage = 3.3895;
-    double minVoltage = 2.2816;
+    double maxVoltage,minVoltage;
     getVoltageInputInterval(&voltageHandle, &motorHandle, &minVoltage, &maxVoltage);
 
 
@@ -174,7 +175,7 @@ int main (int argc, char **argv) {
         // Calculate new values for thrust
         error = positionWanted - currentPosition;
         derivative = (error - errorPrior) / iterationTime;
-        if (Kp*error + Kd*derivative < 30)   // measure against integral windup
+        if (Kp*error + Kd*derivative < 40)   // measure against integral windup
             integral = integral + (error * iterationTime);
 
         // Set motor thrust and update variables
@@ -197,4 +198,8 @@ int main (int argc, char **argv) {
     closeRCServoConnection(&motorHandle);
     closeVoltageInputConnection(&voltageHandle);
     fclose(f);
+
+    // Start animation
+    animate(argc, argv);
+    return 0;
 }

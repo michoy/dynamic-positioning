@@ -14,6 +14,9 @@ CMakeFiles/datametoder.dir/src/VoltageInput.c.obj
  C:/Users/micha/Documents/GitHub/dynamic-positioning/src/PhidgetHelperFunctions.h
  C:/Users/micha/Documents/GitHub/dynamic-positioning/src/VoltageInput.c
 CMakeFiles/datametoder.dir/src/animate.c.obj
+ C:/MinGW/freeglut/include/GL/freeglut.h
+ C:/MinGW/freeglut/include/GL/freeglut_ext.h
+ C:/MinGW/freeglut/include/GL/freeglut_std.h
  C:/Users/micha/Documents/GitHub/dynamic-positioning/src/animate.c
  C:/Users/micha/Documents/GitHub/dynamic-positioning/src/animate.h
 CMakeFiles/datametoder.dir/src/main.c.obj
@@ -21,4 +24,5 @@ CMakeFiles/datametoder.dir/src/main.c.obj
  C:/Users/micha/Documents/GitHub/dynamic-positioning/src/PhidgetHelperFunctions.h
  C:/Users/micha/Documents/GitHub/dynamic-positioning/src/RCServo.h
  C:/Users/micha/Documents/GitHub/dynamic-positioning/src/VoltageInput.h
+ C:/Users/micha/Documents/GitHub/dynamic-positioning/src/animate.h
  C:/Users/micha/Documents/GitHub/dynamic-positioning/src/main.c

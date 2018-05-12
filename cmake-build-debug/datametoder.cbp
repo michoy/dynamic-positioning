@@ -35,6 +35,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Program Files/Phidgets/Phidget22"/>
+					<Add directory="C:/MinGW/freeglut/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
@@ -55,6 +56,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Program Files/Phidgets/Phidget22"/>
+					<Add directory="C:/MinGW/freeglut/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
