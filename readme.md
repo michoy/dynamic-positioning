@@ -1,4 +1,4 @@
-# DP project
+# Dynamic positioning project
 
 Please read section 3.1 in the report for explanation and overview of the code. 
 
